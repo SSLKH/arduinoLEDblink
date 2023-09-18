@@ -10,9 +10,9 @@ void loop() {
   delay(1000);
   
   while(a<5){  
-  digitalWrite(PIN_LED, 0); 
+  digitalWrite(PIN_LED, 1); 
   delay(100);
-  digitalWrite(PIN_LED, 1);
+  digitalWrite(PIN_LED, 0);
   delay(100);
   a += 1;
   }
